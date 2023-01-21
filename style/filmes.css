@@ -1,0 +1,76 @@
+:root{
+    --vermelho: #E50914;   
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color: white;
+ 
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;   
+}
+
+.mar{
+    text-decoration: none;
+    color: #AAA;   
+}
+
+h3{
+    margin: 30px 40px 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #AAA;
+    
+}
+
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
+
+.net{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    padding-left: 300px;
+}
